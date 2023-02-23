@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "uncertainty-estimation-models"
+version = "0.1.0"
+description = "This is the main library for the uncertainty estimation project."
+authors = ["Sándor Daróczi, Jonas Flor, Florian Günther, Slava Kisilevich"]
+readme = "README.md"
+packages = [{ include = "uncertainty_estimation" }]
+
+[tool.poetry.dependencies]
+category-encoders = "2.6.0"
+feature-engine = "1.5.2"
+gluonts = "0.11.8"
+lightgbm = "3.3.2"
+MAPIE = "0.5.0"
+ngboost = { version = "0.3.13", python = ">=3.7.1, <3.11" }
+numba = "0.56.4"
+numpy = { version = "1.21.2", python = ">=3.8,<3.11" }
+pandas = "1.3.5"
+pgbm = "1.8.0"
+properscoring = "0.1"
+python = "^3.8"  # recommended version: 3.9.5
+pytorch-forecasting = { version = "0.10.3", python = ">=3.8,<3.11" }
+pytorch_lightning = "1.8.4"
+scikit-learn = "1.0.2"
+scipy = { version = "1.8.0", python = ">=3.8,<3.11" }
+torch = "1.13.1"  # we have to use 1.13.1 otherwise pgbm doesn't work
+xgboost = "1.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
