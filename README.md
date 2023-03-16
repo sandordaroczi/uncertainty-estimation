@@ -12,7 +12,7 @@ The Kaggle datasets we used for the evaluation are the following:
 
 1. Blue Book For Bulldozers (bulldozer)
 2. Rossmann Store Sales (rossmann)
-3. Corporaci´on Favorita Grocery Sales Forecasting (favorita)
+3. Corporación Favorita Grocery Sales Forecasting (favorita)
 
 For more details, read our paper here.
 
