@@ -14,8 +14,6 @@ The Kaggle datasets we used for the evaluation are the following:
 2. Rossmann Store Sales (rossmann)
 3. Corporación Favorita Grocery Sales Forecasting (favorita)
 
-For more details, read our paper here.
-
 # Getting Started
 
 ## 1. Installation
